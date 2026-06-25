@@ -21,10 +21,10 @@ class MCalculatorButton extends StatelessWidget {
     return Expanded(
       flex: flex,
       child: Container(
-        margin: EdgeInsets.symmetric(horizontal: 8),
+        margin: EdgeInsets.symmetric(horizontal: 8, vertical: 6),
         child: ElevatedButton(
             style: ElevatedButton.styleFrom(
-                backgroundColor: backgroundColor,
+                backgroundColor: Colors.black,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(16))),
             onPressed: () {
@@ -33,7 +33,7 @@ class MCalculatorButton extends StatelessWidget {
             child: Text(
               text,
               style: TextStyle(
-                  color: textColor, fontSize: 32, fontWeight: FontWeight.bold),
+                  color: Colors.white, fontSize: 32, fontWeight: FontWeight.bold),
             )),
       ),
     );

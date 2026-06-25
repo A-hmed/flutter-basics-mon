@@ -26,14 +26,14 @@ class MCalculatorButton extends StatelessWidget {
             style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.black,
                 shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(16))),
+                    borderRadius: BorderRadius.circular(8))),
             onPressed: () {
               onClick(text);
             },
             child: Text(
               text,
               style: TextStyle(
-                  color: Colors.white, fontSize: 32, fontWeight: FontWeight.bold),
+                  color: Colors.white, fontSize: 34, fontWeight: FontWeight.normal),
             )),
       ),
     );

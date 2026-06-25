@@ -18,7 +18,7 @@ class _MCalculatorScreenState extends State {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.black,
+      backgroundColor: AppColors.lightBlue,
       body: Column(
         children: [
           Expanded(

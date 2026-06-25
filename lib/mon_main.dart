@@ -28,5 +28,9 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-/// init: Create empty git repo
-/// commit: Save changes in your project
+/// Git commands:
+/// init: Create empty repository (with master branch)
+/// commit: Save changes in project
+/// reset: Move branch to other commit
+/// revert: New commit with reverted changes
+
